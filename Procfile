@@ -1,1 +1,1 @@
-heroku run python hellodjango/manage.py runserver
+web: waitress-serve --port=$PORT mysite.wsgi:application
